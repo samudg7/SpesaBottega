@@ -1,0 +1,95 @@
+/*QMenuBar*/
+QMenuBar {
+    color: white;
+    background-color: rgb(153, 204, 0);
+    font-weight: bold;
+    font-size: 15 px;
+}
+
+QMenuBar::item {
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 15 px;
+}
+
+QMenuBar::item:selected {
+    background-color: rgb(115, 153, 0);
+    font-weight: bold;
+    font-size: 15 px;
+}
+
+QMenuBar::item:hover{
+    background-color: rgb(115, 153, 0);
+    font-weight: bold;
+    font-size: 15 px;
+}
+
+/*QMenu*/
+QMenu::item:selected{
+    color: white;
+    padding: 10px 12px;
+    background-color: rgb(153, 204, 0);
+}
+
+QMenu::item:hover{
+    color: white;
+    padding: 10px 12px;
+    background-color: rgb(153, 204, 0);
+}
+
+QMenu::item{
+    color: black;
+    padding: 10px 12px;
+    background-color: white;
+}
+
+/*QListWidget*/
+QListWidget {
+    font-size: 10.5 px;
+    border: 3px solid rgb(204, 204, 204);
+    border-radius: 3px;
+    padding: 2px 3px;
+    margin: 2px 3px;
+}
+
+QListWidget::item {
+    border: 1px solid rgb(153, 204, 0);
+    border-radius: 3px;
+    padding: 2px 3px;
+    margin: 2px 3px;
+}
+
+QListWidget::item:selected {
+    background-color: rgb(236, 255, 229);
+    color: black;
+    border: 2px solid rgb(115, 153, 0);
+    border-radius: 7px;
+}
+
+QListWidget::item:hover{
+    background-color: rgb(236, 255, 229);
+}
+
+
+/*QPushButton*/
+QPushButton {
+    font-weight: bold;
+    border-radius: 3px;
+    font-size: 10pt;
+    background-color: rgb(204, 204, 204);
+    padding: 3px 4px;
+}
+
+QPushButton:hover {
+    background-color: rgb(191, 191, 191);
+}
+
+/*QLabel*/
+QLabel{
+    font-weight: bold;
+    font-size: 10pt;
+    border: 1px solid rgb(153, 204, 0);
+    padding: 2px 3px 2px 3px;
+    border-radius: 3px;
+}
